@@ -25,6 +25,11 @@
 		FAC938BC2B25FCF600AE48ED /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC938BB2B25FCF600AE48ED /* HomeHeader.swift */; };
 		FAC938BE2B25FF0E00AE48ED /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC938BD2B25FF0E00AE48ED /* PagingView.swift */; };
 		FAC938C02B25FF3400AE48ED /* HomeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC938BF2B25FF3400AE48ED /* HomeSlider.swift */; };
+		FAC938C32B2607BA00AE48ED /* ButtonPickImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC938C22B2607BA00AE48ED /* ButtonPickImage.swift */; };
+		FAC938C52B260F5500AE48ED /* ButtonMakePassport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC938C42B260F5500AE48ED /* ButtonMakePassport.swift */; };
+		FAC938C72B260FCA00AE48ED /* ButtonMakeBlurBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC938C62B260FCA00AE48ED /* ButtonMakeBlurBrush.swift */; };
+		FAC938C92B26159000AE48ED /* TabViewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC938C82B26159000AE48ED /* TabViewTemplate.swift */; };
+		FAC938CB2B2615BE00AE48ED /* TemplateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC938CA2B2615BE00AE48ED /* TemplateList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,11 @@
 		FAC938BB2B25FCF600AE48ED /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
 		FAC938BD2B25FF0E00AE48ED /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
 		FAC938BF2B25FF3400AE48ED /* HomeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSlider.swift; sourceTree = "<group>"; };
+		FAC938C22B2607BA00AE48ED /* ButtonPickImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPickImage.swift; sourceTree = "<group>"; };
+		FAC938C42B260F5500AE48ED /* ButtonMakePassport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMakePassport.swift; sourceTree = "<group>"; };
+		FAC938C62B260FCA00AE48ED /* ButtonMakeBlurBrush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMakeBlurBrush.swift; sourceTree = "<group>"; };
+		FAC938C82B26159000AE48ED /* TabViewTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTemplate.swift; sourceTree = "<group>"; };
+		FAC938CA2B2615BE00AE48ED /* TemplateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +262,11 @@
 			children = (
 				FAC938BB2B25FCF600AE48ED /* HomeHeader.swift */,
 				FAC938BF2B25FF3400AE48ED /* HomeSlider.swift */,
+				FAC938C22B2607BA00AE48ED /* ButtonPickImage.swift */,
+				FAC938C42B260F5500AE48ED /* ButtonMakePassport.swift */,
+				FAC938C62B260FCA00AE48ED /* ButtonMakeBlurBrush.swift */,
+				FAC938C82B26159000AE48ED /* TabViewTemplate.swift */,
+				FAC938CA2B2615BE00AE48ED /* TemplateList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -388,6 +403,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC938BE2B25FF0E00AE48ED /* PagingView.swift in Sources */,
+				FAC938CB2B2615BE00AE48ED /* TemplateList.swift in Sources */,
+				FAC938C72B260FCA00AE48ED /* ButtonMakeBlurBrush.swift in Sources */,
 				FAC938962B25BBA500AE48ED /* PhotoService.swift in Sources */,
 				FAC9389F2B25BBEF00AE48ED /* Constants.swift in Sources */,
 				FAC938902B25BB5000AE48ED /* HomeController.swift in Sources */,
@@ -396,8 +413,11 @@
 				FAC938B62B25C8C400AE48ED /* MasterPhoto.swift in Sources */,
 				FAC9389C2B25BBD200AE48ED /* SwiftUI+Extensions.swift in Sources */,
 				FAC938B42B25C89E00AE48ED /* ContentView.swift in Sources */,
+				FAC938C52B260F5500AE48ED /* ButtonMakePassport.swift in Sources */,
+				FAC938C32B2607BA00AE48ED /* ButtonPickImage.swift in Sources */,
 				FAC9388E2B25BB4300AE48ED /* HomeView.swift in Sources */,
 				FAC938BC2B25FCF600AE48ED /* HomeHeader.swift in Sources */,
+				FAC938C92B26159000AE48ED /* TabViewTemplate.swift in Sources */,
 				FAC938C02B25FF3400AE48ED /* HomeSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

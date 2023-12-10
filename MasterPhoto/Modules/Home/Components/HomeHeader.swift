@@ -19,6 +19,8 @@ struct HomeHeader: View {
                            .resizable()
                            .aspectRatio(contentMode: .fit)
                            .frame(height: 22)
+            
+            
         }.padding(16)
     }
 }

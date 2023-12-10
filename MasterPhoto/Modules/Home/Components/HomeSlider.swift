@@ -14,8 +14,8 @@ struct HomeSlider: View {
                         .scaledToFill()
                 }
             }
-            .aspectRatio(21/9, contentMode: .fit)
-            .clipShape(RoundedRectangle(cornerRadius: 15))
+            .aspectRatio(4/1, contentMode: .fit)
+            .clipShape(RoundedRectangle(cornerRadius: 8))
 
 //            PagingView(index: $index.animation(), maxIndex: images.count - 1) {
 //                ForEach(self.images, id: \.self) { imageName in
